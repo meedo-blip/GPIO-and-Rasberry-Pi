@@ -137,26 +137,24 @@ def main():
             match turning:
                 case 1:
                     print("turning right")
-                    # turn_right()
+                    turn_right()
                 case -1:
                     print("turning left")
-                    # turn_left()
-                case 0:
-                    print("stopping")
-                    # stop()
+                    turn_left()
+
         else:
             match movement:
                 case 1:
                     print("moving forward")
-                    # move_forward()
+                    move_forward()
                 case -1:
                     print("moving backward")
-                    # move_backward()
+                    move_backward()
                 case 0:
                     print("stopping")
-                    # stop()
+                    stop()
 
-    # stop()
+    stop()
 
     # end of program
     print('bye')
